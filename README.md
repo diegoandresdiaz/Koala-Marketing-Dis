@@ -1,11 +1,9 @@
-# Koala-motors
+# Koala-Motors
 <img alt="Static Badge" src="https://img.shields.io/badge/En%20desarrollo-koala%20Motors-blue?style=plastic&logo=html5&logoColor=withe">
 
-## ** Página web práctica - Caso estudio - Programación web**
+**Proyecto académico: Tecnología en desarrollo WEB y aplicativos móviles.**
 
-Proyecto académico (caso integrador educativo), dónde desarrollamos una página web para una empresa ficticia llamada **Koala Motors**. 
-
-**Estudiantes de tecnología en desarrollo de software y aplicativos móviles** 
+**Materia --Programación WEB-**-(caso integrador educativo), dónde desarrollamos una página web para una empresa ficticia llamada **Koala Motors**. 
 
 ## **Objetivo:**
 - Practicar HTML básico y CSS.
@@ -24,8 +22,5 @@ Bootstrap (todavía aprendiendo)
 GitHub (primeros pasos)
 
 ## 👥 **Equipo de trabajo (orden alfabético):**
-**Todos somos estudiantes principiantes en desarrollo web**
-
-
-#**Equipo de trabajo orden alfabético**:
+**Estudiantes de tecnología en desarrollo de software y aplicativos móviles** 
 
