@@ -20,7 +20,3 @@ HTML básico (etiquetas, estructura)
 CSS (estilos, colores)  
 Bootstrap (todavía aprendiendo)
 GitHub (primeros pasos)
-
-## 👥 **Equipo de trabajo (orden alfabético):**
-**Estudiantes de tecnología en desarrollo de software y aplicativos móviles** 
-
