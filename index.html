@@ -1,32 +1,52 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Koala Motors</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
-<nav class="navbar bg-dark"><!--fuente consultada 6-->
-  <div class="container-fluid">
-        <a class="navbar-brand text-white" href="https://github.com/diegoandresdiaz/Koala-motors">Koala Motors</a>
-      </div>
-    </nav>
-  <body>
-    <h1>¿Qué es koala motors?</h1>
-    <button class="btn btn-success btn-lg">Equipo de koala Motors </button>
-    <p>koala motors es una empresa que se dedica a la venta de motores eléctricos y sus accesorios.</p>
-  <div class="d-flex justify-content-center"> <!--fuente https://getbootstrap.com/docs/5.3/utilities/flex/-->
-  <div class="card w-25"> <!--el estilo usado para que el texto se justifique a la derecha, consulte https://www.w3schools.com/howto/howto_css_text_align_justify.asp  prroblema con ja justificacion de la card, solucion w-25 (dentro del paréntesis)-->
-      <img src="https://images.pexels.com/photos/33619934/pexels-photo-33619934.jpeg" class="card-img-top" alt="336">
-    <div class="card-body text-center" >
-       <h5 class="card text">Motores con tecnología soft Koala </h5> <!--se corrige class=nosotros" -->
-       <p class="card-text">Motores eléctricos en experiencia tan suaves como un koala, tecnología patentada de Soft ralenty.</p>
-       <a href="https://youtu.be/MuNEI1b1F4w?si=dZnB8zck_6L6eOYb" class="btn btn-primary">Video tecnología koala</a>
-    </div>
-  </div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
-  <!--Fuentes consultadas--objetos
-  6 https://getbootstrap.com/docs/5.3/components/navbar/-->
-</html> 
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="prueba de diseño web, con Copyright" /><!--linea usada para motores de búsqueda-->
+        <meta name="author" content="Koala Marketing Diseño" /><!--linea usada para autor de la página-->
+        <title>Koala Marketing Diseño</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon nuevo.ico"><!--fuente de la lineahttps://www.w3schools.com/html/html_favicon.asp-->
+        <!--problema con el favicon, ruta especifica en el pc nombredel archivo-->
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="https://github.com/diegoandresdiaz">Koala Diseño</a>
+                <!-- Botón hamburguesa para menú móvil - DESCOMENTAR CUANDO NECESITE FUNCIONALIDAD MÓVIL o Hamburguesa -->
+                <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button> -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">¿Quienes somos?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Servicios</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="py-5 header-background"><!--/header><header class="bg-dark py-5"--> <!--https://images.pexels.com/photos/861443/pexels-photo-861443.jpeg-->
+        <!--cambiar fondo de encabezado probar <header class="py-5" style="background-image: url('https://images.pexels.com/photos/861443/pexels-photo-861443.jpeg'); background-size: cover; height: 300px;">-->
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="text-center my-5">
+                            <h1 class="display-5 fw-bolder text-white mb-2">Present your business in a whole new way</h1>
+                            <p class="lead text-white-50 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!</p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
+                                <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
