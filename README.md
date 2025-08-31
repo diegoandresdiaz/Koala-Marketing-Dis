@@ -3,17 +3,15 @@
 
 **Proyecto académico: Tecnología en desarrollo WEB y aplicativos móviles.**
 
-**Materia --Programación WEB-**-(caso integrador educativo), dónde desarrollamos una página web para una empresa ficticia llamada **Koala Motors**. 
+**Materia --Programación WEB-**-(caso integrador educativo), dónde se analiza (se modifica, se adecua, se cambia) una plantilla HTML web para una empresa ficticia llamada **Koala Marketing**. 
 
 ## **Objetivo:**
 - Practicar HTML básico y CSS.
 - Aprender a usar Bootstrap (nuestro primer framework).
 - Experimentar con GitHub- (primera vez usando repositorios).
-- Trabajar en equipo en un proyecto web.
-- Documentar lo que vamos aprendiendo tanto en git hub, como en documento escrito.
+- Documentar lo aprendido tanto en git hub, como en documento escrito.
 - Aplicación de etiquetas básicas, y objetos
-- Desarrollo de proyectos con trabajo en equipo.
-- Documento del proceso, con fuentes de referencia, capturas de pantalla, reuniones virtuales del equipo para el desarrollo.
+- Documento del proceso, con fuentes de referencia, capturas de pantalla.
 
 ## **Contenido a practicar:**
 HTML básico (etiquetas, estructura)
