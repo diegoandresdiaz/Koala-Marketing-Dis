@@ -1,4 +1,4 @@
-# Koala-Motors
+# Koala-Marketing-Dis de Desing
 <img alt="Static Badge" src="https://img.shields.io/badge/En%20desarrollo-koala%20Marketing-blue?style=plastic&logo=html5&logoColor=withe">
 
 **Proyecto académico: Tecnología en desarrollo WEB y aplicativos móviles.**
