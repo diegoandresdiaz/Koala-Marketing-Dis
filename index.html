@@ -369,36 +369,20 @@
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
  
-    <div id="chatmeD"></div>
-        <script>
-  const chatmeD = document.getElementById('chatmeD');
-  const chatContent =
-    Hola, soy chatmeD, vamos a conocer acerca de CSS
-
-    ¿Qué deseas saber sobre CSS?
-
-    (Teclea "salir" para cerrar la conversación)
-
-    Respuestas:
-      * selectores: ¿Qué son los selectores en CSS?
-      * propiedades: ¿Qué son las propiedades en CSS?
-      * valores: ¿Qué son los valores en CSS?
-      * ejemplos: ¿Puedes darme un ejemplo de código CSS?
-
-    Respuestas técnicas:
-      * selectores: Los selectores en CSS se utilizan para seleccionar elementos HTML y aplicar estilos.
-      * propiedades: Las propiedades en CSS se utilizan para definir los estilos de los elementos seleccionados.
-      * valores: Los valores en CSS se utilizan para definir los valores de las propiedades.
-      * ejemplos: Ejemplo de código CSS: `body { background-color: #f2f2f2; }`
-
-    Comando para salir: salir
-  `;
-
-  chatmeD.innerHTML = chatContent;
-     <!-- Bootstrap core JS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Core theme JS-->
-<script src="js/scripts.js"></script>
+    <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "3227a0ca-ec5c-4c1c-9ae2-74dc8de6a943", // The ID of this integration.
+    region: "aws-us-east-1", // The region your integration is hosted in.
+    serviceInstanceID: "20250921-2150-5901-30bc-ddfd83afc6c5", // The ID of your service instance.
+    orchestrateUIAgentExtensions: false, // If you wish to enable optional UI Agent extensions.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
 </script>
+
     </body>
 </html>
